@@ -9,10 +9,13 @@ public class User {
     }
 
     class  Acount{
-        String password;
+        private String password;
 
         public Acount(String password) {
             this.password = password;
+        }
+        void displayAccount(){
+            System.out.printf("Account Login successful! Login: %s, Password: %s",login, password);
         }
     }
 }

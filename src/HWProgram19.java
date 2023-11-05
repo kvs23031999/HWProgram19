@@ -2,7 +2,7 @@ public class HWProgram19 {
 
     public static void main(String[] args){
 
-        Person vlad = new Person("Vlad");
-        vlad.setAccount("qwerty");
+        User vlad = new User("Alice","qwerty");
+        vlad.acount.displayAccount();
     }
 }
